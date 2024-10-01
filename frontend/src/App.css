@@ -1,0 +1,282 @@
+.table-container {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid rgb(52, 52, 52);
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: wheat;
+  border: 2px solid black;
+}
+
+.table tbody tr {
+  background-color: wheat;
+}
+
+.table tbody tr:hover {
+  background-color: white;
+}
+
+.actions-btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.actions-btn.delete {
+  background-color: #dc3545;
+}
+
+.actions-btn:hover {
+  opacity: 0.8;
+}
+
+
+body {
+  background-image: url('tradingbg.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  margin: 0; 
+}
+
+html, body, #root {
+  height: 100%; 
+}
+
+.class {
+  background-color: rgb(29, 131, 255);
+}
+
+h2, h1 {
+  color: rgb(115, 142, 238);
+}
+
+#balance {
+  color: wheat;
+}
+
+
+.table-bg {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px; 
+  padding: 30px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin: 10px; 
+}
+
+.actions-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.table-container {
+  width: 900px; 
+  max-width: 100%; 
+  height: 600px; 
+  overflow: hidden; 
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.error-message {
+  background-color: #fdecea;
+  color: #f44336;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+
+.balance-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.balance-form input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.balance-form button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  
+}
+
+.balance-form button:hover {
+  background-color: #45a049; 
+}
+
+.trades-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.trades-header h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.actions-btn {
+  padding: 8px 16px;
+  background-color: #2196F3; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.actions-btn:hover {
+  background-color: #1976D2; 
+}
+
+.actions-btn.edit {
+  background-color: #FFC107; 
+}
+
+.actions-btn.edit:hover {
+  background-color: #FFA000; 
+}
+
+.actions-btn.delete {
+  background-color: #f44336; 
+}
+
+.actions-btn.delete:hover {
+  background-color: #d32f2f; 
+}
+
+.table-bg {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  color: #333;
+  cursor: pointer;
+  position: relative;
+}
+
+.table th:hover {
+  background-color: #e0e0e0;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.profit {
+  color: green;
+  font-weight: bold;
+}
+
+.loss {
+  color: red;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 750px) {
+  .trades-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+  }
+
+  .balance-form {
+      flex-direction: column;
+  }
+
+  .balance-form input, .balance-form button {
+      width: 100%;
+  }
+
+  .actions-btn {
+      width: 100%;
+  }
+}
+
+.graph-section {
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px; 
+  display: flex;
+  flex-direction: column;
+}
+
+
+.graph-section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.graph-section {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.graph-section h2 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
