@@ -1,5 +1,7 @@
 # Trading-Journal
 
+![Trading Home Page](https://github.com/user-attachments/assets/e345fdce-9ac1-42ac-9b96-df8bcad45144)
+
 # Hello! Welcome to my trading journal project where I created a minimum viable product for tracking the results of stock or cryptocurrency trades. There are some files still in this project since I want to continuously update this project and use it as a playground for testing what I learn!
 
 # PURPOSE: I love trading stocks and thought that a simple trading journal with ability to create, read, update, delete, and note a comment for my past trades would be a great way
