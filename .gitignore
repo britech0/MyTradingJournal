@@ -3,4 +3,6 @@
 /frontend/node_modules
 /backend/.env
 /frontend/.env
-2. Unstage Unwa
+
+/backend/build
+/frontend/build
