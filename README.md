@@ -7,7 +7,7 @@
 
 # PURPOSE: 
 #I love trading stocks and thought that a simple trading journal with ability to create, read, update, delete, and note a comment for my past trades would be a great way
-#of practicing full stack development on a hobby I enjoy.
+of practicing full stack development on a hobby I enjoy.
 
 
 
@@ -15,11 +15,13 @@
 #JavaScript, Recharts library, React.js, Express.js, Node.js, MongoDB, HTML, CSS,
 
 # HOW TO USE: (Assuming dependencies are downloaded)
-#1. Frontend and backend are served on ports 3000 and 5000.
-#2. CD into frontend and enter into terminal 'npm start'
-#3. CD into backend and enter into terminal 'npm start
-#4. Check localhost:3000 and you should see the trading journal
-#5. You have the ability to add, edit, and delete trades which will affect the data displayed on the chart by Recharts.
+#1 You will need to set-up MongoDB and create your own .env for your database.
+#2 npm install for backend and frontend
+#3. Frontend and backend are served on ports 3000 and 5000.
+#4. CD into frontend and enter into terminal 'npm start'
+#5. CD into backend and enter into terminal 'npm start
+#6. Check localhost:3000 and you should see the trading journal
+#7. You have the ability to add, edit, and delete trades which will affect the data displayed on the chart by Recharts.
 
 
 # My Personal Learning:
