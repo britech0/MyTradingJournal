@@ -1,6 +1,8 @@
 # Trading-Journal
 
-![Trading Home Page](https://github.com/user-attachments/assets/e345fdce-9ac1-42ac-9b96-df8bcad45144)
+![MyTradingJournalHome](https://github.com/user-attachments/assets/cac0731c-f39e-4e4c-9725-f5c735bfc635)
+
+
 
 # Hello! Welcome to my trading journal project where I created a minimum viable product for tracking the results of stock or cryptocurrency trades. 
 #There are some files still in this project since I want to continuously update this project and use it as a playground for testing what I learn!
