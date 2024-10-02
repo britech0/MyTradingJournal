@@ -1,6 +1,8 @@
 # Trading-Journal
 
-![MyTradingJournalHome](https://github.com/user-attachments/assets/cac0731c-f39e-4e4c-9725-f5c735bfc635)
+
+
+![HomePageImage](https://github.com/user-attachments/assets/282cb2b3-39d8-480c-8ac3-73facb6373d4)
 
 
 
