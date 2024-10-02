@@ -279,4 +279,14 @@ h2, h1 {
 .graph-section h2 {
   margin-bottom: 15px;
   font-size: 1.2em;
+  color:black;
+  text-align: center;
+}
+
+#title {
+  color: black;
+}
+
+#balance-title {
+  color: black;
 }

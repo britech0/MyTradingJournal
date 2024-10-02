@@ -87,7 +87,7 @@ const TradesList = ({ trades, fetchTrades }) => {
         <div className="table-container">
             {error && <div className="error-message">{error}</div>}
 
-            <h1>Balance: ${ (balance + totalProfitLoss).toFixed(2) }</h1>
+            <h1 id="balance-title">Balance: ${ (balance + totalProfitLoss).toFixed(2) }</h1>
 
             <form onFormSubmit={handleInitialBalanceSubmit} className="balance-form">
                 <input
@@ -102,7 +102,7 @@ const TradesList = ({ trades, fetchTrades }) => {
             </form>
 
             <div className="trades-header">
-                <h2>Trade History:</h2>
+                <h2 id="title">Trade History:</h2>
                 <button onClick={handleAddClick} className="actions-btn add-btn">Add Trade</button>
             </div>
 
